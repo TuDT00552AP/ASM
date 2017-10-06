@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng Kí Tài Khoản</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="../img/icon.ico">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="../ASM.html"><img src="../img/logo.png" width="50px"></a>
+		</div>
+		<div class="logo-text">
+			<a href="../ASM.html">Éc Shop</a>
+		</div>
+		<div class="pig">
+			<a href="http://facebook.com/100004646105815"><img src="http://hinhnendepnhat.net/wp-content/uploads/2017/07/hinh-dong-de-thuong-chu-lon-kute.gif" width="50px"></a>
+		</div>
+		<div class="pig1">
+			<a href="http://facebook.com/100004646105815"><img src="http://hinhnendepnhat.net/wp-content/uploads/2017/07/hinh-dong-de-thuong-chu-lon-kute.gif" width="50px"></a>
+		</div>
+		<div class="formlogin">
+			<a href="../dangnhap/dangnhap.html">Đăng Nhập</a>
+			<a href="#">Đăng Kí</a>
+			</div>
+		</header>
+		<nav>
+			<div class="search">
+				<form action="http://google.com/cse" method="posts">
+					<input type="searchsubmit" name="Submit" value="" placeholder="Nhập nội dung..." required="" id="search1">
+					<input type="button" name="Search" value="Search" id="search">
+				</form>
+			</div>
+			<div class="home">
+				<a href="../ASM.html"><img src="https://maxcdn.icons8.com/Share/icon/Astrology//year_of_pig1600.png" width="17px"></a>
+				<a class="index" href="../ASM.html">Éc Éc Shop</a>
+			</div>
+			<div class="home1">
+				<a href="../ASM.html"><img src="https://image.flaticon.com/icons/png/512/25/25694.png" width="17px"></a>
+				<a class="index1" href="../ASM.html">Home</a>
+			</div>
+			<div class="gg">
+				<a href="http://google.com"><img src="https://maxcdn.icons8.com/Share/icon/p1em/Logos//google_logo1600.png" width="17px"></a>
+				<a class="gg1" href="http://google.com">Google</a>
+			</div>
+			<div class="map">
+				<a href="https://www.google.com/maps"><img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_location_on_48px-512.png" width="17px"></a>
+				<a class="map1" href="http://maps.google.com">Maps</a>
+			</div>
+		</nav>
+
+		<section>
+			<div class="titleposts">
+					<div class="title1">
+						<h1>Đăng Kí Tài Khoản</h1>
+					</div>
+			</div>
+			<form action="https://youtube-api-challenger.appspot.com/member/register" method="POST">
+				<div class="form-group">
+					<label>Tên Người Dùng</label><span>*</span>
+					<input type="text" name="username" class="normal-input" placeholder="Tên đăng nhập." id="user" onkeyup="Validate1()">
+					<div><span id="msg1"></span></div>
+				</div>
+				<div class="form-group">
+					<label>Tên Đầy Đủ</label><span>*</span>
+					<input type="text" name="fullName" class="long-input" placeholder="Họ và tên đầy đủ."  id="name" onkeyup="Validate2()">
+					<div><span id="msg2"></span></div>
+				</div>
+				<div class="form-group">
+					<label>Email</label><span>*</span>
+					<input type="email" name="email" class="normal-input" placeholder="Email có dạng @mail.com" id="mail" onkeyup="Validate3()">
+					<div><span id="msg3"></span></div>
+				</div>
+				<div class="form-group">
+					<label>Mật khẩu</label><span>*</span>
+					<input type="password" name="password" class="normal-input" placeholder="Mật khẩu đăng nhập." id="password" onkeyup="Validate4()">
+					<div><span id="msg4"></span></div>
+				</div>
+				<div class="form-group">
+					<label>Nhập Lại Mật Khẩu</label><span>*</span>
+					<input type="password" name="confirmPassword" class="normal-input" placeholder="Nhập lại mật khẩu"  id="confirmPassword" onkeyup="Validate5(password,confirmPassword)">
+					<div><span id="msg5"></span></div>
+				</div>
+				<div class="form-group">
+					<label>Ngày Sinh</label><span>*</span>
+					<input type="date" name="birthDay" placeholder="Định dạng dd/mm/yyyy" class="normal-input">
+				</div>
+				<div class="form-group">
+					<label>Giới Tính</label>
+					<label><input type="radio" name="gender" value="1" checked> Nam</label>
+					<label><input type="radio" name="gender" value="0"> Nữ</label>
+				</div>
+				<div class="form-group">
+					<label>Ảnh Đại Diện</label>
+					<input type="text" name="avatar" class="long-input" placeholder="Ảnh đại diện của bạn" id="avatar" onkeyup="Validate6()">
+					<div><span id="msg6"></span></div>
+				</div>
+				<div class="form-group">
+					<label>&nbsp;</label>
+					<input type="submit" name="" value="Đăng Kí" onclick="Validateall()">
+					<input type="reset" name="" value="Làm Lại" class="cancelbtn">
+				</div>
+			</form>
+		</section>
+		<div class="clean-both"></div>
+
+		<script src="my-script.js"></script>
+</body>
+</html>

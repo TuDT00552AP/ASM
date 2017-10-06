@@ -1,0 +1,331 @@
+*{
+	font-family: roboto;
+	font-size: 15px;
+	margin: 0 0;
+}
+body{
+ background-color: #e9ebee;
+}
+header{
+	background-color: #222222;
+	width: 100%;
+	height: 60px;
+	position: sticky;
+	top: 0;	
+}
+.pig img:hover,.pig1 img:hover{
+	width: 60px;
+
+}
+.formlogin{
+	float: right;
+	padding: 20px 30px;
+	color: #fff;
+}
+.formlogin a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+.formlogin a:hover{
+	color: red;
+	text-decoration: none;
+	padding: 5px;
+	font-weight: bold;
+}
+input[type=submit],input[type=searchsubmit]{
+	border: 1px solid #333;
+}
+input[type=submit]:hover{
+	color: #fff;
+	background-color: #4CAF50;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	margin-left: 20px;
+}
+.logo-text{
+	float: left;
+	font-size: 15px;
+	color: #fff;
+	margin: 20px 0;
+}
+.logo-text a{
+	color: #fff;
+	text-decoration: none;
+}
+.home,.home1,.gg,.map{
+	padding: 1%;
+	background-color: #333;
+	float: left;
+	border-radius: 3%;
+}
+.home:hover,.home1:hover,.gg:hover,.map:hover{
+	background-color: #292929;
+}
+.home1,.gg,.map{
+	border-left: 2px solid #212121;
+}
+.home1 img,.gg img,.map img,.home img{
+	margin-top: 2%;
+	float: left;
+}
+.gg img,.map img{
+	margin-top: 5%;
+}
+.home a:hover, .home1 a:hover ,.gg a:hover,.map a:hover{
+	color: #ababab;
+}
+nav{
+	background-color: #4c4c4c;
+	width: 100%;
+	height: 50px;
+	margin: 0 0;
+
+}
+nav .index,nav .index1,nav .gg1,nav .map1{
+	font-size: 18px;
+	text-decoration: none;
+	color: #979797;
+	margin-left: 20%;
+	font-family: 'Roboto', sans-serif;
+}
+nav .index1,nav .gg1 ,nav .map1,nav .index{
+	margin-left: 5px;
+}
+.search{
+	float: right;
+	margin: 1% 2%;
+}
+input[type=searchsubmit]{
+	border-radius: 5px;
+	font-family: roboto;
+	font-size: 15px;
+	color: #333;
+	height: 13px;
+}
+input[type=button]{
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+section{
+	margin: 5px 5px;
+}
+.bar{
+	float: left;
+	width: 26%;
+	background-color: #fff;
+	margin-left: 15px;
+	display: block;
+}
+article{
+	width: 25%;
+	background-color: #fff;
+	height: 1250px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.titlebar{
+	width: 100%;
+	height: 35px;
+	background-color: #337ab7;
+}
+.posts{
+	float: right;
+	width: 69.8%;
+	background-color: #fff;
+	margin-right: 20px;
+	margin-left: 5px;
+	text-align: center;
+}
+.bigblog{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.blog{
+	float: left;
+	width: 31%;
+	height: 250px;
+	background-color: #fff;
+	margin: 2px 4px;
+	border-radius: 5px;
+	text-align: center;
+}
+.miniblog{
+	width: 99%;
+	height: 200px;
+	background-color:
+	text-align: center;
+	margin: 0 0 2px;
+	display: inline;
+}
+.titleposts{
+	width: 100%;
+	height: 35px;
+	background-color: #337ab7;
+}
+.titleposts1{
+	width: 100%;
+	height: 35px;
+	background-color: #337ab7;
+	float: left;
+	margin: 10px 0;
+}
+.title1{
+	float: left;
+	font-size: 18px;
+	color: #fff;
+	margin: 0.8% 3%;
+	font-family: tahoma;
+}
+.title2{
+	float: left;
+	font-size: 18px;
+	color: #fff;
+	margin: 0.8% 3%;
+	font-family: tahoma;
+}
+.bar span{
+	float: left;
+	font-size: 18px;
+	color: #fff;
+	margin: 2% 3%;
+	font-family: tahoma;
+}
+.muc1{
+	width: 90%;
+	height: 40px;
+	margin: 10px 17px;
+}
+.muc2{
+	width: 100%;
+	height: 40px;
+	background-color: #337ab7;
+	float: left;
+}
+.menu{
+	text-decoration: none;
+	padding: 2px;
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+}
+.menu:hover{
+	text-decoration: none;
+	padding: 2px;
+	font-size: 22px;
+	color: #f00;
+}
+.contact{
+	font-size: 20px;
+}
+.contact p{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	margin: 8px 0;
+}
+.scrolltop img{
+	position: fixed;
+	float: right;
+	right: 5px;
+	bottom: 15px;
+	width: 40px;
+}
+.fb img{
+	width: 120px;
+	margin: 10px 20px;
+}
+.license{
+	text-align: center;
+	font-weight: bold;
+	width: 95%;
+	float: left;
+	padding: 15px;
+	background-color: #fff;
+	margin: 2px 20px;
+}
+
+
+
+
+
+
+
+@keyframes pig{
+	from{
+		left: 15%;
+		top: 0px;
+	}
+	to{
+		left: 70%;
+		top: 0px;
+	}
+}
+.pig{
+	position: fixed;
+	animation-name: pig;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+}
+@keyframes pig1{
+	from{
+		left: 70%;
+		top: 0px;
+	}
+	to{
+		left: 15%;
+		top: 0px;
+	}
+}
+.pig1{
+	position: fixed;
+	animation-name: pig1;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+}
+.clean-both{
+	clear: both;
+}
+.tensp{
+	color: #000;
+	font-weight: bold;
+	font-style: italic;
+}
+strong{
+	padding: 3px;
+	text-align: center;
+	display: block;
+	color: #ff0000;
+}
+.oder,.oder1{
+	color: #fff;
+	text-decoration: none;
+	display: inline;
+	border: 1px solid #ff0000;
+	background-color: #ff0000;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.oder:hover,.oder1:hover{
+	background-color: #04ff00;
+	border: 2px solid #04ff00;
+}
+.ruoi,.giansn,.sau,.ret,.ong,.thanlan,.nhen{
+	padding: 20px;	
+}
+.giancho,.langquang,.dep{
+	padding: 25px;
+}
+.ruoi:hover,.giansn:hover,.sau:hover,.giancho:hover,.langquang:hover,
+.doi:hover,.ret:hover,.ong:hover,.thanlan:hover,.nhen:hover,.dep:hover,.hanh:hover,
+.kep:hover,.kim:hover,.ngoctrai:hover,.muoi:hover,.muc:hover{
+	transform: scale(1.1) rotate(0deg);
+}
